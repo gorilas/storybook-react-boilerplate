@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class ButtonES6 extends Component {
+class Button extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -22,15 +22,14 @@ class ButtonES6 extends Component {
   }
 }
 
-ButtonES6.propTypes = {
+Button.propTypes = {
   // props types and required
-  name: PropTypes.string.isRequired,
-  movida: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired
 };
 
-ButtonES6.defaultProps = {
+Button.defaultProps = {
   // default props, initial states
   name: 'Mundo!'
 };
 
-export default ButtonES6; // Don’t forget to use export default!
+export default Button; // Don’t forget to use export default!

@@ -2,16 +2,16 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 // import your components
-import ButtonES6 from '../components/ButtonES6';
+import Button from '../components/Button';
 import ButtonStateless from '../components/ButtonStateless';
 
 
-storiesOf('ButtonES6', module)
+storiesOf('Button', module)
   .add('with text', () => (
-    <ButtonES6 name='Mundo Mundial!'>Hello Button</ButtonES6>
+    <Button name='Mundo Mundial!'>Hello Button</Button>
   ))
   .add('with some emoji', () => (
-    <ButtonES6 name='Mundo Mundial!'><span role="img" aria-label="so cool">😀 😎 👍 💯</span></ButtonES6>
+    <Button name='Mundo Mundial!'><span role="img" aria-label="so cool">😀 😎 👍 💯</span></Button>
   ));
 
 storiesOf('ButtonStateless', module)
