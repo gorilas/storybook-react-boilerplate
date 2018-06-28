@@ -1,0 +1,21 @@
+{
+  "name": "storybook-react-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic boilerplate for styleguides made with Storybook for React",
+  "main": "index.js",
+  "repository": "https://github.com/gorilas/storybook-react-boilerplate",
+  "author": "tallergorilas <info@tallergorilas.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
