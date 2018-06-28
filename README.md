@@ -11,8 +11,9 @@ There are two kind of components as example:
 
  ButtonStateless is a functional stateless component declared as a plain JavaScript function with props. It's used for presentational components without state. 
 
-
  Both of them have defaultProps and propTypes defined and a callback function onClick.
+
+ The way to style components with Sass is based in the architecture proposed in [Styling React Components in Sass](https://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/) by David Khourshid.
 
  ## Installation
 
