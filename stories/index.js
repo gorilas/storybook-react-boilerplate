@@ -5,6 +5,9 @@ import { storiesOf } from '@storybook/react';
 import Button from '../components/Button';
 import ButtonStateless from '../components/ButtonStateless';
 
+// import your styles from local path
+import '../stylesheets/main.scss';
+
 
 storiesOf('Button', module)
   .add('with text', () => (

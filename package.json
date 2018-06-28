@@ -12,7 +12,12 @@
   },
   "devDependencies": {
     "@storybook/react": "^3.4.8",
-    "babel-core": "^6.26.3"
+    "babel-core": "^6.26.3",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.2"
   },
   "dependencies": {
     "react": "^16.4.1",
