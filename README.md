@@ -13,4 +13,13 @@ There are two kind of components as example:
 
  Both of them have defaultProps and propTypes defined and a callback function onClick.
 
+ ## Installation
+
+ yarn install
+
+ ## Run Storybook
+
+ yarn run storybook
+
+
 
