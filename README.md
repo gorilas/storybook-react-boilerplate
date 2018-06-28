@@ -1,7 +1,7 @@
 # storybook-react-boilerplate
 Basic boilerplate for styleguides made with Storybook for React
 
-Uses Storybookas component visualizer.
+Uses [Storybook](https://github.com/storybooks/storybook) as UI components visualizer.
 
 There are two kind of components as example:
  * components/ButtonStateless.js 
