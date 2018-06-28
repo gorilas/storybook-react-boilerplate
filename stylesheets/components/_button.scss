@@ -1,0 +1,14 @@
+
+//https://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/
+
+.c-button {
+  display: inline-block;
+  padding: 0.2rem;
+  font-size: 1.4rem;
+  color: $color-primary;
+  background-color: map-get($colors, body-background);
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

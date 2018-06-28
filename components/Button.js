@@ -18,7 +18,7 @@ class Button extends Component {
     })
   }
   render() {
-    return <span onClick={this.handleClick}>Click me: {this.state.counter} - Hola {this.props.name} - {this.props.children}</span>;
+    return <span onClick={this.handleClick} className="c-button">Click me: {this.state.counter} - Hola {this.props.name} - {this.props.children}</span>;
   }
 }
 

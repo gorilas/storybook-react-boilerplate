@@ -13,7 +13,7 @@ const ButtonStateless = ({name}) => (
 
 const ButtonStateless = (props) => {
   return (
-    <span onClick={handleClick}>Click me - Hola {props.name} - {props.children}</span>
+    <span onClick={handleClick} className="c-button">Click me - Hola {props.name} - {props.children}</span>
   )
 }
 
