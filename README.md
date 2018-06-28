@@ -5,11 +5,12 @@ Uses [Storybook](https://github.com/storybooks/storybook) as UI components visua
 
 There are two kind of components as example:
  * components/ButtonStateless.js 
- * components/ButtonES6.js 
+ * components/Button.js 
+ 
+ Button is a typical component with state.
 
- ButtonStateless is a functional stateless component declared as a plain JavaScript function with props. It's state used for presentational components without state. 
+ ButtonStateless is a functional stateless component declared as a plain JavaScript function with props. It's used for presentational components without state. 
 
- Button is a common component with states.
 
  Both of them have defaultProps and propTypes defined and a callback function onClick.
 
