@@ -15,11 +15,12 @@ There are two kind of components as example:
 
  ## Installation
 
+ ```
  yarn install
+ ```
 
  ## Run Storybook
 
+ ```
  yarn run storybook
-
-
-
+```
